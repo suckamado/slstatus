@@ -3,11 +3,16 @@
 #include <time.h>
 
 #include "../slstatus.h"
+
+#include <locale.h>
+
 #include "../util.h"
 
 const char *
 datetime(const char *fmt)
 {
+	setlocale(LC_ALL, "");
+
 	time_t t;
 
 	t = time(NULL);
