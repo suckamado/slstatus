@@ -68,9 +68,9 @@ static const struct arg args[] = {
 	{ cpu_perc,  		" %s%% |", 	   NULL            			},
 	{ ram_perc,  		"  %s%% |", 	   NULL            			},
 	{ disk_perc, 		" 💾 %s%% |",      "/"             			},
-  	{ netspeed_tx, 		"  %s",           "wlp2s0"        			},
-	{ netspeed_rx, 		" %s|",           "wlp2s0"        			},
-	{ battery_state, 	" %s"    , 	   "BAT1" 				},
-	{ battery_perc,  	"  %s%% |", 	   "BAT1" 				},
+  	{ netspeed_tx, 		"  %s",           "enp0s20u1"        			},
+	{ netspeed_rx, 		" %s|",           "enp0s20u1"        			},
+/*	{ battery_state, 	" %s"    , 	   "BAT1" 				}, */
+/*	{ battery_perc,  	"  %s%% |", 	   "BAT1" 				}, */
 	{ datetime,  		"  %s",     	   "%a, %d/%m/%Y %H:%M:%S"         	},
 };
